@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="15" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="5388" started-at="2018-02-06T01:18:34Z" finished-at="2018-02-06T01:18:39Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Begin01.demo2()[pri:0, instance:packageDemoTestNG.Begin01@3dfc5fb8]" name="demo2" class="packageDemoTestNG.Begin01"/>
+        <method signature="Begin02.demo3(java.lang.String)[pri:0, instance:packageDemoTestNG.Begin02@3cb1ffe6]" name="demo3" class="packageDemoTestNG.Begin02"/>
+        <method signature="Begin03.demo4()[pri:0, instance:packageDemoTestNG.Begin03@45820e51]" name="demo4" class="packageDemoTestNG.Begin03"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Personal Loan" duration-ms="5268" started-at="2018-02-06T01:18:34Z" finished-at="2018-02-06T01:18:39Z">
+      <class name="packageDemoTestNG.Begin02">
+        <test-method status="PASS" signature="deleteHistoricDataEntries()[pri:0, instance:packageDemoTestNG.Begin02@3cb1ffe6]" name="deleteHistoricDataEntries" is-config="true" duration-ms="1" started-at="2018-02-05T18:18:34Z" finished-at="2018-02-05T18:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteHistoricDataEntries -->
+        <test-method status="PASS" signature="demo3(java.lang.String)[pri:0, instance:packageDemoTestNG.Begin02@3cb1ffe6]" name="demo3" duration-ms="8" started-at="2018-02-05T18:18:34Z" finished-at="2018-02-05T18:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method status="PASS" signature="afterEveryMethod()[pri:0, instance:packageDemoTestNG.Begin02@3cb1ffe6]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:34Z" finished-at="2018-02-05T18:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+      </class> <!-- packageDemoTestNG.Begin02 -->
+      <class name="packageDemoTestNG.Begin01">
+        <test-method status="PASS" signature="demo1(java.lang.String)[pri:0, instance:packageDemoTestNG.Begin01@3dfc5fb8]" name="demo1" duration-ms="5" started-at="2018-02-05T18:18:34Z" finished-at="2018-02-05T18:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="demo2()[pri:0, instance:packageDemoTestNG.Begin01@3dfc5fb8]" name="demo2" duration-ms="5" started-at="2018-02-05T18:18:34Z" finished-at="2018-02-05T18:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method status="PASS" signature="login()[pri:0, instance:packageDemoTestNG.Begin01@3dfc5fb8]" name="login" duration-ms="5224" started-at="2018-02-05T18:18:34Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:packageDemoTestNG.Begin01@3dfc5fb8]" name="close" is-config="true" duration-ms="1" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- packageDemoTestNG.Begin01 -->
+    </test> <!-- Personal Loan -->
+    <test name="Home Loan" duration-ms="23" started-at="2018-02-06T01:18:39Z" finished-at="2018-02-06T01:18:39Z">
+      <class name="packageDemoTestNG.Begin03">
+        <test-method status="PASS" signature="demo4()[pri:0, instance:packageDemoTestNG.Begin03@45820e51]" name="demo4" duration-ms="4" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method status="PASS" signature="demo5(java.lang.String)[pri:0, instance:packageDemoTestNG.Begin03@45820e51]" name="demo5" duration-ms="13" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[homeLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+      </class> <!-- packageDemoTestNG.Begin03 -->
+    </test> <!-- Home Loan -->
+    <test name="Car Loan" duration-ms="43" started-at="2018-02-06T01:18:39Z" finished-at="2018-02-06T01:18:39Z">
+      <class name="packageDemoTestNG.Begin04">
+        <test-method status="PASS" signature="firstWithinClass()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="firstWithinClass" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstWithinClass -->
+        <test-method status="PASS" signature="beforeEveryMethod()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="beforeEveryMethod" is-config="true" duration-ms="1" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method status="PASS" signature="apiLoginCarLoan()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="apiLoginCarLoan" duration-ms="8" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginCarLoan -->
+        <test-method status="PASS" signature="webLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="webLoginCarLoan" duration-ms="2" started-at="2018-02-05T18:18:39Z" data-provider="getTestData" finished-at="2018-02-05T18:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[achuk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bye]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method status="PASS" signature="beforeEveryMethod()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="beforeEveryMethod" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method status="PASS" signature="beforeEveryMethod()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="beforeEveryMethod" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method status="PASS" signature="webLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="webLoginCarLoan" duration-ms="0" started-at="2018-02-05T18:18:39Z" data-provider="getTestData" finished-at="2018-02-05T18:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[daan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method status="PASS" signature="beforeEveryMethod()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="beforeEveryMethod" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method status="PASS" signature="webLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="webLoginCarLoan" duration-ms="1" started-at="2018-02-05T18:18:39Z" data-provider="getTestData" finished-at="2018-02-05T18:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cheeku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meeku]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method status="PASS" signature="webLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="webLoginCarLoan" duration-ms="2" started-at="2018-02-05T18:18:39Z" data-provider="getTestData" finished-at="2018-02-05T18:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adhika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prasanga]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method status="PASS" signature="beforeEveryMethod()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="beforeEveryMethod" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method status="PASS" signature="apiFreshCarLoan()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="apiFreshCarLoan" duration-ms="2" started-at="2018-02-05T18:18:39Z" depends-on-methods="packageDemoTestNG.Begin04.apiLoginCarLoan" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiFreshCarLoan -->
+        <test-method status="PASS" signature="beforeEveryMethod()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="beforeEveryMethod" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method status="PASS" signature="lastWithinClass()[pri:0, instance:packageDemoTestNG.Begin04@7b69c6ba]" name="lastWithinClass" is-config="true" duration-ms="1" started-at="2018-02-05T18:18:39Z" finished-at="2018-02-05T18:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastWithinClass -->
+      </class> <!-- packageDemoTestNG.Begin04 -->
+      <class name="packageDemoTestNG.Begin03">
+        <test-method status="PASS" signature="begin()[pri:0, instance:packageDemoTestNG.Begin03@45820e51]" name="begin" is-config="true" duration-ms="9" started-at="2018-02-05T18:18:34Z" finished-at="2018-02-05T18:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begin -->
+      </class> <!-- packageDemoTestNG.Begin03 -->
+      <class name="packageDemoTestNG.Begin01">
+        <test-method status="PASS" signature="end()[pri:0, instance:packageDemoTestNG.Begin01@3dfc5fb8]" name="end" is-config="true" duration-ms="0" started-at="2018-02-05T18:18:40Z" finished-at="2018-02-05T18:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- packageDemoTestNG.Begin01 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

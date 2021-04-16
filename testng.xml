@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department" parallel="tests" thread-count="10"> <!-- Suite name can be anything -->
+	<listeners>
+		<listener class-name="packageDemoTestNG.Begin05_EventListener">
+		</listener>
+	</listeners>
+
+	<test thread-count="5" name="Personal Loan" parallel="classes"> <!-- This is a Test Set. Name can be anything -->
+		<parameter name="url" value="personalloan.com">
+		</parameter>
+		<classes> <!-- List of classes you want to include in the Test Set "Personal Loan" -->
+			<class name="packageDemoTestNG.Begin01" /> <!-- Name of the class (and the package it exists in) -->
+			<class name="packageDemoTestNG.Begin02"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Home Loan"> <!-- Next Test Set -->
+		<parameter name="url" value="homeLoan.com">
+		</parameter>
+		<classes>
+			<class name="packageDemoTestNG.Begin03"></class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Car Loan"> <!-- Next Test Set -->
+	<parameter name="url" value="carLoan.com">
+		</parameter>
+		<classes>
+			<class name="packageDemoTestNG.Begin04">
+				<methods>
+					<exclude name="mobile.*"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 
